@@ -84,7 +84,7 @@ byte data4 = 0;
 int RANGE = 0;
 int p_RANGE = 0;
 int window = 0;
-int intCOutT;
+char intCOutT;
 char CTemp1 = 0;
 char CTemp2 = 0;
 char CNapr;
@@ -112,7 +112,7 @@ String message_artist = "";
 String p_message_album = "";
 String p_message_artist = "";
 String p_message = "";
-String message_temp = "   ";
+String message_temp = "";
 //********************************Tab function prototypes*****************************//
 //Announcement of function prototypes from other tabs for correct function call.
 void message_to_DIS (String);
